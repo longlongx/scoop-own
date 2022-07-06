@@ -9,7 +9,7 @@
     "notes": "Although TyporaCrack provide support for crack, we encourage buying license, in order to Support Genuine Software Development.",
     "depends": "sudo",
     "architecture": {
-        "64bit": {
+        "32bit": {
             "url": [
                 "https://pan.jiemi.workers.dev/?file=/scoop/Typora/typora-setup-ia32-1.2.4.exe",
                 "https://pan.jiemi.workers.dev/?file=/scoop/Typora/app-windows-1.2.4-x86.asar"
@@ -19,7 +19,7 @@
                 "d29ac47fc000ea604fdde458861b0cc3937f3e436578bb1ae8ec8ea335fa5fde"
             ]
         },
-        "32bit": {
+        "64bit": {
             "url": [
                 "https://pan.jiemi.workers.dev/?file=/scoop/Typora/typora-setup-x64-1.2.4.exe",
                 "https://pan.jiemi.workers.dev/?file=/scoop/Typora/app-windows-1.2.4-x64.asar"
@@ -50,7 +50,7 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": {
+            "32bit": {
                 "url": [
                     "https://pan.jiemi.workers.dev/?file=/scoop/Typora/typora-setup-ia32-$version.exe",
                     "https://pan.jiemi.workers.dev/?file=/scoop/Typora/app-windows-$version-x86.asar"
@@ -61,7 +61,7 @@
                     "regex": "^$sha256([\\s]+)$basename"
                 }
             },
-            "32bit": {
+            "64bit": {
                 "url": [
                     "https://pan.jiemi.workers.dev/?file=/scoop/Typora/typora-setup-x64-$version.exe",
                     "https://pan.jiemi.workers.dev/?file=/scoop/Typora/app-windows-$version-x64.asar"
