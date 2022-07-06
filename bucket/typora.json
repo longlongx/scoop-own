@@ -30,12 +30,10 @@
             ]
         }
     },
-    "innosetup": false,
     "post_install": "Copy-Item \"$dir\\app-windows-*.asar\" \"$dir\\resources\\app.asar\" -Force -ErrorAction SilentlyContinue",
     "bin": [
         [
-            "Typora.exe",
-            "Typora Crack"
+            "Typora.exe"
         ]
     ],
     "shortcuts": [
