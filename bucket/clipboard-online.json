@@ -16,7 +16,6 @@
         "    @{",
         "         'port' = '8086'",
         "         'authkey' = 'vemodalen'",
-        "         'authkeyExpiredTimeout' = '30'",
         "         'logLevel' = 'warning'",
         "         'tempDir' = './temp'",
         "         'reserveHistory' = $false",
